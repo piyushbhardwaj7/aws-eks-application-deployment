@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: nextwork-flask-backend
-          image: <your-account-id>.dkr.ecr.ap-south-1.amazonaws.com/cloudnetsolutions-flask-backend:latest
+          image: 12345678910.dkr.ecr.ap-south-1.amazonaws.com/cloudnetsolutions-flask-backend:latest
           ports:
             - containerPort: 8080
